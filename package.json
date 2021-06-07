@@ -1,5 +1,10 @@
 {
   "name": "andere-npm-test-app",
+  "author": {
+    "email": "briancollins081@gmail.com",
+    "name": "Andere Brian",
+    "url": "https://github.com/briancollins081"
+  },
   "description": "This is a test package for a react application with 2 components",
   "keywords": ["react", "cra", "components", "andere-test-package"],
   "version": "0.1.0",
@@ -7,6 +12,10 @@
   "main": "dist/index.js",
   "module": "dist/index.js",
   "files": ["dist", "README.md"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/briancollins081/npm-test-package.git"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files",
